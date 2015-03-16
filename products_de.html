@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rubber & Plastic</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <!--Less部分-->
+    <link rel="stylesheet/less" href="less/style.less" type="text/css" >
+    <script src="js/less-1.7.4.js" type="text/javascript"></script>
+    <!--Less部分-->
+    <script language="javascript" type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/main.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+</head>
+<body>
+<div>
+    <!--网页上部-->
+    <div class="head">
+        <div class="container clearfix">
+            <!--logo-->
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"> </a>
+            </div>
+            <!--logo-->
+
+            <div class="top_r">
+                <!--邮箱和收藏-->
+                <div class="em_add">
+                    <a><em class="icon em_email"></em></a>
+                    <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)"><em class="icon em_sc"></em></a>
+                </div>
+                <!--邮箱和收藏-->
+
+                <!--中英文-->
+                 <div class="language">
+                     <a><em class="icon em_ch"></em></a>
+                     <a> <em class="icon em_en"></em></a>
+                 </div>
+                <!--中英文-->
+            </div>
+
+        </div>
+    </div>
+    <!--网页上部-->
+
+    <!--导航-->
+    <div class="container">
+    <ul class="topnav clearfix">
+        <li><a href="index.html">HOME</a> </li>
+        <li><a href="about.html">ABOUT<br>US</a> </li>
+        <li class="current"><a href="products.html">PRODUCTS</a> </li>
+        <li><a href="news.html">COMPANY<br>NEWS</a> </li>
+        <li><a href="feed.html">FEEDBACK</a> </li>
+        <li><a href="contact.html">CONTACT<br>US</a> </li>
+    </ul>
+    </div>
+    <div style="position: relative">
+    <div class="nav_bg"></div>
+    </div>
+    <!--导航-->
+
+    <!--网页中部-->
+    <div class="middle">
+        <div class="container clearfix">
+
+           <!-- 左侧部分-->
+               <div class="left_box">
+                  <div class="fl_name radius_4">PRODUCT CATALOGUE</div>
+                   <ul class="product_fl">
+                       <li><a href="" class="current">Silicone food storage</a> </li>
+                       <li><a href="">Silicone bakeware</a> </li>
+                       <li><a href="">Silicone kitchen tools</a> </li>
+                       <li><a href="">New items</a> </li>
+                   </ul>
+                   <div class="fl_name" style="margin-top:15px;">CONTACT US</div>
+                    <p class="contact_info">
+                         Tel: 0086-574-88494309<br>
+                         Fax: 0086-574-88094339<br>
+                         E-mail:eric@sanzhitech.com<br>
+                         Contact: Eric Wu<br>
+                         Website: <a href="http://www.sanzhitech.com" target="_blank">www.sanzhitech.com</a>
+                    </p>
+               </div>
+            <!-- 左侧部分-->
+
+            <!--右侧部分-->
+            <div class="right_box">
+                <div class="pro_de clearfix">
+                    <div class="img"><img src="images/pro_de.jpg"> </div>
+                    <div class="info">
+                        <div class="infobox">
+                            <p><b>Item:</b><span class="co">SEA-223</span></p>
+                            <p><b>Name:</b><span class="co">Silicone bakeware</span></p>
+                            <p><b>Categories:</b><span class="co">Silicone food storage</span></p>
+                            <div class="dashed_line"></div>
+                            <p><b>Product detail</b></p>
+                            <p>Item Name:silicone lunch box</p>
+                            <p>product code:SZ1-22</p>
+                            <p>product size:23*25*23</p>
+                            <p>net.weight:260g</p>
+                            <p>characteristics of the product:</p>
+                            <p>Non-stcik & rehdjsb to high temperatryn;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--右侧部分-->
+        </div>
+
+
+
+        <div class="container">
+            <!-- content S -->
+            <div id="demoContent">
+                <div class="effect" style="width:100%">
+                    <div id="leftMarquee" class="leftLoop">
+                        <div class="hd">
+                            <a class="next"></a>
+                            <a class="prev"></a>
+                        </div>
+                        <div class="bd">
+                            <ul class="picList">
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/p1.jpg" /></a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/p2.jpg" /></a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/p3.jpg" /></a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/p4.jpg" /></a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/p5.jpg" /></a></div>
+                                </li>
+                                <li>
+                                    <div class="pic"><a href=""><img src="images/p3.jpg" /></a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script type="text/javascript">jQuery("#leftMarquee").slide({ mainCell:".bd ul",effect:"leftMarquee",vis:4,interTime:40,autoPlay:true });</script>
+                </div>
+            </div>
+            <!-- content S -->
+        </div>
+    </div>
+    <!--网页中部-->
+
+    <!--网页底部-->
+    <div class="footer">
+        <div class="container">
+            <ul class="footernav clearfix">
+                <li class="current"><a href="index.html">HOME</a> </li>
+                <li><a href="about.html">ABOUT US</a> </li>
+                <li><a href="products.html">PRODUCTS</a> </li>
+                <li><a href="news.html">COMPANY NEWS</a> </li>
+                <li><a href="feed.html">FEEDBACK</a> </li>
+                <li><a href="contact.html">CONTACT US</a> </li>
+            </ul>
+            <p>CopyRight © 2006-2015 All Rights Reserved</p>
+        </div>
+    </div>
+    <!--网页底部-->
+
+</div>
+</body>
+
+</html>
+
+
+
